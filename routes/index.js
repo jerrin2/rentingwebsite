@@ -1,5 +1,5 @@
 const { Router } = require("express");
-const {addAmenities,getProperties, getAmenities, getUsers, getAuth, getPermissions, getPopularLocations, getUniversities} = require("./Controllers")
+const {addAmenities,getProperties, getAmenities, getUsers, getAuth, getPermissions, getPopularLocations, getUniversities, addProperties} = require("./Controllers")
 const {createUser,login} = require("./Controllers/authController")
 /*
 Property,
@@ -20,6 +20,8 @@ Property,
   service_data,
 */
 const router = Router();
+
+router.post("/add-properties",addProperties);
 
 router.get("/properties",getProperties);
 router.get("/amenities",getAmenities);

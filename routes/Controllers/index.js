@@ -1,4 +1,4 @@
-const { Property, Amenities, User, Authentication, Permission, Popular_location, University } = require("../../models/dbModels");
+const { Property, Amenities, User, Authentication, Permission, Popular_location, University, Property_interest } = require("../../models/dbModels");
 const { Op } = require("sequelize");
 async function getProperties(req,res){
     const {location} = req.query;
@@ -59,6 +59,16 @@ async function getUniversities(req,res){
 //     }
 // }
 
+async function addProperties(req,res){
+    const properties = req.body;
+    try{
+        await Property.bulkCreate(properties);
+        res.status(201).json({ success: true });
+    } catch(e){
+        res.status(500).json({ success: false, error: "Internal server error" });
+    }
+}
+
 module.exports = {
     getProperties,
     getAmenities,
@@ -67,5 +77,6 @@ module.exports = {
     getPopularLocations,
     getUniversities,
     getUsers,
+    addProperties
     // addAmenities
 }
