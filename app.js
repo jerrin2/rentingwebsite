@@ -181,19 +181,19 @@ async function initialize() {
 // //       Property_address:"951 S Abrams Rd, Richardson, TX 75081",
 // //       property_link:"https://www.zillow.com/apartments/richardson-tx/richland-park/C6DvvQ/"
 // //     },
-// //  {
-// //       Property_id: "26",
-// //       Property_name: "Canterbury Courts",
-// //       Property_type: "1bd 1ba",
-// //       Property_price: 1367,
-// //       coordinates: "33.0169145, -96.666556",
-// //       nearest_bus_stop: "route 883 west",
-// //       active_property: true,
-// //       Property_image: "https://photos.zillowstatic.com/fp/1c83b44556a50b962f0023985caee1b4-cc_ft_1152.webp",
-// //       amenities_id: "1",
-// //       Property_address:"2600 E Renner Rd, Richardson, TX 75082",
-// //       property_link:"https://www.zillow.com/apartments/richardson-tx/canterbury-courts/5Xhsg4/"
-// //     },
+//  {
+//       Property_id: "26",
+//       Property_name: "Canterbury Courts",
+//       Property_type: "1bd 1ba",
+//       Property_price: 1367,
+//       coordinates: "33.0169145, -96.666556",
+//       nearest_bus_stop: "route 883 west",
+//       active_property: true,
+//       Property_image: "https://photos.zillowstatic.com/fp/1c83b44556a50b962f0023985caee1b4-cc_ft_1152.webp",
+//       amenities_id: "1",
+//       Property_address:"2600 E Renner Rd, Richardson, TX 75082",
+//       property_link:"https://www.zillow.com/apartments/richardson-tx/canterbury-courts/5Xhsg4/"
+//     },
 // //  {
 // //       Property_id: "27",
 // //       Property_name: "The Cayman Las Colinas",
